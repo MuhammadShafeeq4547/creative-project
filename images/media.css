@@ -1,0 +1,272 @@
+@media screen and (max-width:1360px) {
+    .background_img{
+        background-repeat: no-repeat;
+        background-size: 70% 100%;
+    }
+    .background_img2{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .background_img3{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .parent_m2{
+        width: 950px;
+    }
+    .slider_parent{
+        width: 900px;
+    }
+    .parent_Cart{
+        width: 900px;
+    }
+    .parent4{
+        width: 950px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    /* .opp{
+        width: 97%;
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+    } */
+    .main{
+        height: 230vh;
+    }
+    .parent3{
+        display: flex;
+        flex-direction: column;
+    }
+    .child_p3{
+        width: 100%;
+        height: 350px;
+    }
+    .background_img{
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .child2_p3{
+        width: 100%;
+        height: 350px;
+        margin-top: 30px;
+    }
+    .p_bgk{
+        margin-top: 8%;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    .parent_m2{
+        width: 650px;
+    }
+    .slider_parent{
+        width: 700px;
+        height: 400px;
+    }
+    .parent_Cart{
+        width: 700px;
+    }
+    .img_cart{
+        height: 50%;
+    }
+    .btn_add{
+        width: 110px;
+        font-size: 14px;
+    }
+    .cart1{
+        height: 330px;
+    }
+    .parent4{
+        width: 650px;
+        flex-wrap: wrap;
+    }
+    .box1{
+        width: 47%;
+        height: 500px;
+    }
+    .box1_f{
+        width: 30%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .p_parent{
+        display: none;
+    }
+    .nav_ul{
+        width: 200px;
+    }
+    .li_nav1{
+        font-size: 1.2rem;
+    }
+    .ul_nav2{
+        display: none;
+    }
+    
+    .input{
+        width: 300px;
+    }
+    
+    .child_p3{
+        height: 300px;
+    }
+    .p_bgk{
+        margin-top: 7%;
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .p2_bgk{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    .p_img2{
+        font-size: 40px;
+        margin-top: 15%;
+    }
+    .p2_img2{
+        font-size: 20px;
+    }
+    .parent_m2{
+        width: 90%;
+    }
+    .child_m2{
+        flex-direction: column;
+    }
+    .button_email{
+        margin-top: 20px;
+    }
+    .p_discount{
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .p_subscribe{
+        font-size: 14px;
+    }
+    .slider_parent{
+        width: 90%;
+        height: 250px;
+    }
+    .parent_Cart{
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .cart1{
+        width: 47%;
+    }
+    .parent_para{
+        width: 230px;
+    }
+    .p_1{
+        font-size: 16px;
+    }
+    .right_bar{
+        width: 350px;
+    }
+    .cart_show{
+        width: 350px;
+    }
+    .Create{
+        font-size: 13px;
+    }
+    .parent4{
+        width: 330px;
+    }
+    .box1{
+        width: 100%;
+    }
+    .p_blog{
+        font-size: 25px;
+    }
+    .box1_f{
+        width: 50%;
+    }
+    .parent_f{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .box1_f{
+        width: 100%;
+    }
+    .parent_check{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .child_nav1{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .nav_ul{
+        margin-left: 30%;
+    }
+    .child_nav2{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .icon_click{
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+    .input{
+        width: 170px;
+    }
+    .parent3{
+        width: 90%;
+        margin-top: 80px;
+    }
+    .p_bgk{
+        margin-top: 20%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .p_img2{
+        font-size: 30px;
+        margin-top: 35%;
+    }
+    .p2_img2{
+        font-size: 20px;
+    }
+    .parent_m2{
+        width: 90%;
+    }
+    .parent_two{
+        width: 100%;
+    }
+    .button_email{
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .p_discount{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+    }
+    .p_subscribe{
+        font-size: 13px;
+    }
+    .parent_Cart{
+        width: 250px;
+        flex-wrap: wrap;
+    }
+    .cart1{
+        width: 100%;
+    }
+    .right_bar{
+        width: 100%;
+    }
+    .cart_show{
+        width: 100%;
+        height: 100%;
+    }
+    .parent4{
+        width: 90%;
+    }
+    
+}

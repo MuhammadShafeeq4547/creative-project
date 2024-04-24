@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main{
+            width: 100%;
+            height: 140vh;
+            background-color: slategray;
+            display: flex;
+            justify-content: center;
+        }
+        .parent{
+            width: 400px;
+            height: 630px;
+            background-color: black;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+        .p1{
+            font-size: 35px;
+            font-weight: 700;
+            color: white;
+            margin-top: 20px;
+            margin-left: 30px;
+            color: white;
+        }
+        .child{
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .p2{
+            font-size: 17px;
+            font-weight: 400;
+            color: white;
+        }
+        .inp_Name,.inp_Email,.inp_password,.inp_id,.inp_Number{
+            width: 90%;
+            height: 45px;
+            border: none;
+            outline: none;
+            background-color: gainsboro;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-left: 10px;
+        }
+        ul{
+            color: white;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+        .btn_register{
+            width: 80%;
+            height: 45px;
+            background-color: red;
+            margin: auto;
+            border-radius: 5px;
+            display: block;
+            margin-top: 30px;
+            outline: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .p_last{
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .span a{
+            color: greenyellow;
+        }
+        @media screen and (max-width:768px) {
+            .parent{
+                width: 330px;
+            }
+            .p1{
+                font-size: 25px;
+            }
+            ul li{
+                font-size: 15px;
+            }
+        }
+        @media screen and (max-width:400px) {
+            .parent{
+                width: 280px;
+            }
+            .p1{
+                font-size: 25px;
+            }
+            ul li{
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main">
+        <div class="parent">
+            <p class="p1">Create Account</p>
+            <div class="child">
+                <p class="p2">EMAIL</p>
+                <input type="text" name="Name" id="" class="inp_Email" placeholder="Enter Email">
+            </div>
+            <div class="child">
+                <p class="p2">Password</p>
+                <input type="password" name="Name" id="" class="inp_password" placeholder="Enter password">
+            </div>
+            <div class="child">
+                <p class="p2">NUMBER</p>
+                <input type="email" name="Name" id="" class="inp_Number" placeholder="Enter number">
+            </div>
+            <ul>
+                <li>Must be at least 8 characters long.</li>
+                <li>Must contain a lowercase letter.</li>
+                <li>Must contain an uppercase letter.</li>
+                <li>Must contain a number or special character.</li>
+            </ul>
+            <button onclick="signup(event)" class="btn_register">Register</button>
+            <p class="p_last">Already have a account? <span class="span"><a href="./Log out.html">Log in</a></span></p>
+        </div>
+    </header>
+
+    <script src="./js_working.js"></script>
+    
+</body>
+</html>
