@@ -140,6 +140,7 @@ let obj = [
         source: "./images/card-item4.jpg",
         price: 80,
         number1: 9,
+        id: 9,
     },
 ]
 
